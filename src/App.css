@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.timer {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  width: 180px;
+  height: 180px;
+  background: black;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  transform: translateY(-50%);
+
+  border-radius: 8px;
+}
+
+button {
+  color: black;
+  background: white;
+  border: none;
+  padding: 0.4em 1em;
+  border-radius: 1em;
+  font-size: 1.2em;
+}
+
+p {
+  font-size: large;
+}
+
+strong {
+  display: block;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.end-test {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 94px;
+  color: white;
+
+  background-color: #ef473a;
+}
